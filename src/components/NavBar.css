@@ -1,0 +1,40 @@
+.navbar {
+    background-color: var(--color-dark-blue);
+    display: grid;
+    grid-template-columns: min-content max-content;
+    align-content: center;
+}
+
+.logo__name {
+    color: var(--color-white);
+    font-size: 3rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    /* margin-top: 1.5rem;
+    margin-left: 1.5rem; */
+}
+
+/* .logo__name::before {
+    content: '';
+    height: 3rem;
+    width: 3rem;
+    display: block;
+    background-color: var(--color-white);
+    -webkit-mask-image: url(../img/calendar.svg);
+    -webkit-mask-size: cover;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+} */
+
+
+.logo {
+    content: '';
+    height: 4rem;
+    width: 4rem;
+    display: block;
+    background-color: var(--color-white); /* #ff7315; */
+    -webkit-mask-image: url(../img/calendar.svg);
+    -webkit-mask-size: cover;
+    margin-left: 3rem;
+    
+}

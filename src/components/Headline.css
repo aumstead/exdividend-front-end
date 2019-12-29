@@ -1,0 +1,10 @@
+.Headline__title {
+    color: var(--color-white);
+    font-size: 2.7rem;
+    padding-left: 1.5rem;
+    display: inline-block;
+    width: 38rem;
+    justify-self: center;
+    font-weight: inherit;
+    margin: 2rem 0;
+}

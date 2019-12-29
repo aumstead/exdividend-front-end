@@ -1,0 +1,20 @@
+.DisplayExDiv {
+    display: grid;
+    justify-content: center;
+    color: var(--color-white);
+}
+
+.result__intro {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.result__query {
+    color: var(--color-teal);
+}
+.result__exDivDate {
+    margin-top: 3rem;
+    font-size: 4rem;
+    text-align: center;
+}

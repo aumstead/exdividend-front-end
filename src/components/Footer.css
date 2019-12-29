@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.footer__info-text {
+    color: var(--color-white);
+    margin: 0 auto;
+    margin-bottom: 12rem;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 60%;
+}
+
+.footer__sub-text {
+    display: grid;
+    color: var(--color-white);
+    font-size: 1.2rem;
+    justify-content: center;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer__sub-text {
+        grid-template-columns: max-content;
+        row-gap: .5rem;
+    }
+}

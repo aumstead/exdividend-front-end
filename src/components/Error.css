@@ -1,0 +1,14 @@
+.Error {
+    display: grid;
+    justify-content: center;
+    color: var(--color-white);
+}
+
+.Error__text {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Error__query {
+    color: var(--color-teal);
+}
