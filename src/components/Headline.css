@@ -8,3 +8,11 @@
     font-weight: inherit;
     margin: 2rem 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .Headline__title {
+        margin-top: 5rem;
+        font-size: 2.2rem;
+        text-align: center;
+    }
+}
